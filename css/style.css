@@ -1,0 +1,104 @@
+/* LIMPAR FORMATAÇÕES */
+*{
+    margin: 0;
+    padding: 0;
+}
+/* FORMATAÇÕES GENÉRICAS */
+body{
+    font-size: 16px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    background-color: #000000
+}
+h1{
+    color: #000000;
+    font-size: 40px;
+}
+h2{
+    color: #ff0000;
+
+}
+
+
+/* HEADER */
+#header{
+    background-color: #ff0000;
+    padding: 15px;
+    text-align: center;
+}
+
+#logo, #menu{
+    padding: 10px;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+#header a:link, #header a:visited{
+    color: #ffffff;
+    padding: 8px 12px;
+
+}
+
+#header a:hover{
+    color: #000000;
+    background: #ffffff;
+    text-decoration: none;
+}
+
+.white{
+    color: #ffffff;
+}
+
+/* CONTENT */
+#content{
+    width: 720px;
+    margin: 0 auto;
+    padding: 30px;
+}
+
+#posts{
+    width: 720px;
+    float: left;
+}
+
+.post{
+    padding: 20px;
+    margin-bottom: 20px;
+    background: #2e2e2e;
+    text-align: justify;
+    font-family: 'Times New Roman', Times, serif;
+    color: #ffffff;
+}
+
+.data-post{
+    font-size: 13px;
+    border-bottom: 1px solid #ff0000;
+    padding-bottom: 10px;
+    margin-bottom: 10px;
+    display: block;
+}
+
+.img-post{
+    width: 680px;
+    height: 0 auto;
+}
+
+
+/* FORMATAÇÃO LINKS */
+a{
+    text-decoration: none;
+}
+
+
+summary{
+    color: #ff0000;
+
+}
+
+/* FOOTER */
+#footer{
+    clear: both;
+    text-align: center;
+    padding: 15px;
+    background: #2e2e2e;
+    color: #ff0000;
+}
+
